@@ -1,0 +1,57 @@
+{
+  "title": "CT.gov Completion Cohort Debt",
+  "slug": "ctgov-completion-cohort-debt",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-29",
+  "path": "C:\\Projects\\ctgov-completion-cohort-debt",
+  "type": "methods",
+  "primary_estimand": "2-year no-results rate by primary completion cohort among eligible older closed interventional studies",
+  "summary": "A standalone E156 project on how two-year reporting debt and ghost protocols drift across completion cohorts.",
+  "body": "Do newer ClinicalTrials.gov completion cohorts look more transparent once every study has had at least two years to report? We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot and grouped them by primary completion year and broader completion eras. For each cohort we estimated two-year no-results rates, ghost-protocol rates defined as missing results plus missing publication links, and the share with both signals visible. The 2008-2012 completion era showed a 64.4 percent no-results rate and a 38.8 percent ghost-protocol rate. By 2021-2024, the comparable rates had worsened to 77.0 percent and 46.7 percent, while the fully visible share fell to 10.8 percent. Year-level summaries showed the same recent drift, indicating that eligibility alone does not erase newer registry silence across successive completion cohorts. These cohort comparisons are descriptive and can reflect changing trial mix, backfilling, and publication-linking practices as well as reporting behavior inside this still uneven public reporting system.",
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "Do newer ClinicalTrials.gov completion cohorts look more transparent once every study has had at least two years to report?"
+    },
+    {
+      "role": "Dataset",
+      "text": "We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot and grouped them by primary completion year and broader completion eras."
+    },
+    {
+      "role": "Method",
+      "text": "For each cohort we estimated two-year no-results rates, ghost-protocol rates defined as missing results plus missing publication links, and the share with both signals visible."
+    },
+    {
+      "role": "Primary result",
+      "text": "The 2008-2012 completion era showed a 64.4 percent no-results rate and a 38.8 percent ghost-protocol rate."
+    },
+    {
+      "role": "Secondary result",
+      "text": "By 2021-2024, the comparable rates had worsened to 77.0 percent and 46.7 percent, while the fully visible share fell to 10.8 percent."
+    },
+    {
+      "role": "Interpretation",
+      "text": "Year-level summaries showed the same recent drift, indicating that eligibility alone does not erase newer registry silence across successive completion cohorts."
+    },
+    {
+      "role": "Boundary",
+      "text": "These cohort comparisons are descriptive and can reflect changing trial mix, backfilling, and publication-linking practices as well as reporting behavior inside this still uneven public reporting system."
+    }
+  ],
+  "notes": {
+    "app": "CT.gov Completion Cohort Debt dashboard",
+    "data": "Eligible older closed interventional studies grouped by primary completion year and completion era",
+    "code": "https://github.com/mahmood726-cyber/ctgov-completion-cohort-debt",
+    "doi": "",
+    "version": "1.0.0",
+    "date": "2026-03-29",
+    "validation": "FULL REGISTRY RUN"
+  },
+  "affiliation": "Tahir Heart Institute",
+  "email": "author@example.com",
+  "references": [
+    "ClinicalTrials.gov API v2. National Library of Medicine. Accessed March 29, 2026.",
+    "Page MJ, McKenzie JE, Bossuyt PM, et al. The PRISMA 2020 statement. BMJ. 2021;372:n71.",
+    "Borenstein M, Hedges LV, Higgins JPT, Rothstein HR. Introduction to Meta-Analysis. 2nd ed. Wiley; 2021."
+  ]
+}
